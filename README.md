@@ -1,3 +1,4 @@
+//html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,7 +17,7 @@
     <script src="script.js"></script>
   </body>
 </html>
-
+//js
 const loveMe = document.querySelector('.loveMe')
 const times = document.querySelector('#times')
 
@@ -59,7 +60,7 @@ const createHeart = (e) => {
 
     setTimeout(() => heart.remove(), 1000)
 }
-
+//css
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 * {
